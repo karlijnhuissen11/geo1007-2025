@@ -133,3 +133,5 @@ let toc = L.control.layers(baseLayers).addTo(map);
 registerGeoLocate(map);
 register_geocoder(map);
 let insertWFS = registerWFSReadAndWriteLayer(map, toc);
+
+
